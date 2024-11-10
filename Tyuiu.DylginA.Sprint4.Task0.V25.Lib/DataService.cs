@@ -10,7 +10,7 @@ namespace Tyuiu.DylginA.Sprint4.Task0.V25.Lib
             {
                 if (array[i] % 2 == 0)
                 {
-                    c++;
+                    c += array[i];
                 }
             }
             return c;
