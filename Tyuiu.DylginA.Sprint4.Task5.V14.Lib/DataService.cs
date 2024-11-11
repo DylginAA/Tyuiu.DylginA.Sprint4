@@ -14,7 +14,7 @@ namespace Tyuiu.DylginA.Sprint4.Task5.V14.Lib
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    if (matrix[i, j] >= 0)
+                    if (matrix[i, j] > 0)
                     {
                         sumArray += 1;
                     }
